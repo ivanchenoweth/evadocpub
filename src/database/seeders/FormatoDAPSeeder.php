@@ -1,16 +1,13 @@
 <?php
-
 namespace Database\Seeders;
-
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-
 class FormatoDAPSeeder extends Seeder
 { 
     public function run()
     {        
         DB::table('formatoDAP')->insert([
-            'fk_num_emp' => '27264', // CARLOS CORDOVA NAVARRO
+            'fk_num_emp' => '10001', // JOSE MARIA LOPEZ GUTIERREZ
             'profesion' => 'Maestría en CIencias Computacionales', 
             'tel_oficina'=> '217-5295 Y 07 EXT. 4404, 1084000, 1084090', 
             'cod_postal'=> '83100', 
@@ -28,7 +25,7 @@ class FormatoDAPSeeder extends Seeder
             'ta3_fin_mesanio'=> '012009', 
             'ta3_cargo'=> 'Desarrollador de Sistemas', 
             'ta3_campoexperiencia'=> 'Diseño y Desarrollo de Soluciones de Tecnologías de la Información.', 
-            'ta3_empresa'=> 'SDI MEXICO SA DE CV', 
+            'ta3_empresa'=> 'HP MEXICO SA DE CV', 
         ]);
     }
 }

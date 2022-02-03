@@ -32,7 +32,6 @@ class DatabaseSeeder extends Seeder
         $this->call(MunicipiosSeeder::class);         
         $this->call(EmpleadosSeeder::class);
         $this->call(PlantillaRHSeeder::class);
-        
         $this->call(FormatoDAPSeeder::class);
     }
 }

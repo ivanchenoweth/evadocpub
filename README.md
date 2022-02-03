@@ -5,7 +5,7 @@ Se ha cambiado la contraseña a S3cr3t4dm1n
 Se ha cambiado el usuario de mysql a admin
 Se ha mejorado la importacion de XLS para importar evaluados y evaluadores ya con datos de Evaluacion
 Se debe incluir la columna "evaluado" en Excel y con el dato "SI" para importar todos los campos
- 
+Se han modificado los seeders con 2 empleados dummy 
 
 service mysql stop
 service mysql status

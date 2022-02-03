@@ -21,13 +21,13 @@ class UsersSeeder extends Seeder
             'perfil' => 'A',
             'name' => 'ADMINISTRADOR DEL SISTEMA',
             'email' => 'admin@gmail.com',
-            'password' => Hash::make('4dm1n'),
+            'password' => Hash::make('admin'),
         ]);
         DB::table('users')->insert([
-            'num_emp' => '26084',
-            'name' => 'BURGOS FUENTES MARIA AZUCENA',
-            'email' => 'u26084@gmail.com',
-            'password' => Hash::make('u26084'),
+            'num_emp' => '10002',
+            'name' => 'PEREZ LOPEZ MARIA',
+            'email' => 'u10002@gmail.com',
+            'password' => Hash::make('u10002'),
         ]);
     }
 }

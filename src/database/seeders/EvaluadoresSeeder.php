@@ -15,10 +15,10 @@ class EvaluadoresSeeder extends Seeder
     public function run()
     {
         DB::table('evaluadores')->insert([
-            'ne_jefe' => '26084',
-            'tot_evaluar' => '6', 
+            'ne_jefe' => '10002',
+            'tot_evaluar' => '1', 
             'tot_evaluado' => '0', 
-            'pen_evaluar' => '6', 
+            'pen_evaluar' => '1', 
             'fk_cve_area' => '052403',
             'puesto' => 'SUBSECRETARIO DE RECURSOS HUMANOS',             
         ]);

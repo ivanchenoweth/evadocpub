@@ -11,19 +11,19 @@ class EmpleadosSeeder extends Seeder
     {            
         // 
         DB::table('empleados')->insert([
-            'num_emp' => '27264',
-            'num_pension' => '131551',
-            'apaterno' => 'ARIAS',
-            'amaterno' => 'PARRA',
-            'nombres' => 'WILY EDGAR',
-            'nombre_x_nom' => 'WILY EDGAR ARIAS PARRA',
-            'nombre_x_ap' => 'ARIAS PARRA WILY EDGAR',            
-            'curp' => 'AIPW780709HSRRRL01', 
-            'rfc' => 'AIPW780709LF5', 
+            'num_emp' => '10001',
+            'num_pension' => '10000001',
+            'apaterno' => 'GUTIERREZ',
+            'amaterno' => 'LOPEZ',
+            'nombres' => 'JOSE MARIA',
+            'nombre_x_nom' => 'JOSE MARIA LOPEZ GUTIERREZ',
+            'nombre_x_ap' => 'LOPEZ GUTIERREZ JOSE MARIA ',
+            'curp' => 'LOGM010101HSRRRL01', 
+            'rfc' => 'LOGM010101LF5', 
             'fk_cve_sexo' => '296', // Masculino
             'fk_cve_escolaridad' => '302', // Maestria
             'fecha_nacimiento' => '19780709', 
-            'correo_oficial' => 'willy.arias@haciendasonora.gob.mx', 
+            'correo_oficial' => 'jose.lopez@gmail.com', 
             'correo_alterno' => 'no tiene',             
             'fk_cve_tipo_empleado' => '306', // Base
             'fk_cve_sindicalizado' => '317', // Si
@@ -44,23 +44,22 @@ class EmpleadosSeeder extends Seeder
             'compensacion' => '0', 
             'otras_prestaciones' => '11210.13', 
             'sueldo_total_bruto' => '36894.47', 
-            'comentarios' => 'Jose Pinillos 22/01/2019',             
+            'comentarios' => 'Jose Roberto 22/01/2019',             
         ]);
-        
         DB::table('empleados')->insert([
-            'num_emp' => '33998',
-            'num_pension' => '136290',
-            'apaterno' => 'CORDOVA',
-            'amaterno' => 'NAVARRO',
-            'nombres' => 'CARLOS',
-            'nombre_x_nom' => 'CARLOS CORDOVA NAVARRO',
-            'nombre_x_ap' => 'CORDOVA NAVARRO CARLOS',
-            'curp' => 'CONC800506HSRRVR01', 
-            'rfc' => 'CONC8005063L6', 
-            'fk_cve_sexo' => '296', // Masculino
+            'num_emp' => '10002',
+            'num_pension' => '10001201',
+            'apaterno' => 'PEREZ',
+            'amaterno' => 'LOPEZ',
+            'nombres' => 'MARIA',
+            'nombre_x_nom' => 'MARIA PEREZ LOPEZ',
+            'nombre_x_ap' => 'PEREZ LOPEZ MARIA ',
+            'curp' => 'PELM010101MSRRVR01', 
+            'rfc' => 'PELM0101013L6', 
+            'fk_cve_sexo' => '297', // Femenino
             'fk_cve_escolaridad' => '304', // 
-            'fecha_nacimiento' => '19800506', 
-            'correo_oficial' => 'carlos.cordova@sonora.gob.mx', 
+            'fecha_nacimiento' => '19800101', 
+            'correo_oficial' => 'mariaa@gmail.com', 
             'correo_alterno' => 'no tiene',                         
             'fk_cve_tipo_empleado' => '309', // Confianza
             'fk_cve_sindicalizado' => '318', // No
@@ -81,7 +80,7 @@ class EmpleadosSeeder extends Seeder
             'compensacion' => '0', 
             'otras_prestaciones' => '0', 
             'sueldo_total_bruto' => '27998', 
-            'comentarios' => 'Jose Pinillos 22/01/2019',             
+            'comentarios' => 'Jose Roberto 22/01/2019',             
         ]);
     }
 }
