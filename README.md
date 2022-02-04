@@ -1,3 +1,29 @@
+
+## Requisitos
+- docker v.x
+- docker-compose v.x
+- 
+
+## Instalacion y configuracion
+
+## Paso 1 (clonar):
+
+- `git clone cayi/evadocpub.git` 
+
+- `cd evadocpub` 
+
+## Paso 2 (levantar contenedores):
+
+- `docker-compose up -d` 
+
+- `docker-compose run --rm composer update` 
+
+
+## Paso 3:
+
+- `mv .env.example .env` 
+- editar el archivo .env con los valores del servidor:
+
 Se han elminado (comentado) de docker-compose.yml
 los servicios redis y mailhog
 Se ha cambiado el nombre de la base de datos a eva_des
