@@ -57,7 +57,7 @@ class CreateEvaluadosTable extends Migration
             $table->tinyInteger('r30')->default("0");
             $table->smallInteger('suma')->default("0");
             $table->float('promedio',8,3)->default("0");
-            $table->longText('areas_opor')->default(" ");
+            $table->longText('areas_opor')->nullable(true);
             $table->string('correo',80)->default("dfcc70@gmail.com");
             $table->string('grado_dominio',20)->default("DEFICIENTE");
             $table->string('fk_cve_area',6)->default("052406");
