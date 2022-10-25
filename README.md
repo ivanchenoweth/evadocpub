@@ -2,6 +2,10 @@
 
 ## Repositoio publico FLOSS
 
+> La evaluación del desempeño es un proceso sistemático y periódico mediante el cual los jefes inmediatos valoran cuantitativa 
+y cualitativamente el grado de eficacia y eficiencia de sus colaboradores en el desempeño de sus puestos de trabajo. Esta 
+técnica se basa en la observación de conductas o comportamientos, que se mide en relación con lo requerido para el puesto
+
 # Indicaciones: 
 Se han elminado (comentado) de docker-compose.yml
 los servicios redis y mailhog
